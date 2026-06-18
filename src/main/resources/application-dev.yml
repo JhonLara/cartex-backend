@@ -1,0 +1,13 @@
+# Perfil de desarrollo local
+# Activar con: mvn spring-boot:run -Dspring-boot.run.profiles=dev
+# O con variable: SPRING_PROFILES_ACTIVE=dev
+
+sadmin:
+  unomasuno:
+    username: apiunomasuno@datacs.ca
+    password: Jpi*Qh8bif/bI703j3+0Vbxqiq1ygC
+
+external:
+  api:
+    auth-url: https://security.sadmin.net/security/login
+    reports-base-url: https://reports.sadmin.net/api
